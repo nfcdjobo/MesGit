@@ -14,7 +14,7 @@
                             @if ($banner != null)
                                 <img src="{{ asset($banner->logo2) }}" alt="" height="22">
                             @else
-                                {{-- <img src="{{ asset('public/assets/images/logo-dark.png') }}" alt="" height="22"> --}}
+                                <img src="{{ asset('public/assets/images/logo-dark.png') }}" alt="" height="22">
                             @endif
                         </span>
                     </a>
@@ -24,9 +24,9 @@
                             @if ($banner != null)
                                 <img src="{{ asset($banner->logo2) }}" alt="" height="22">
                             @else
-                                {{-- <img src="{{ asset('public/assets/images/logo-light.png') }}" alt="" height="22"> --}}
+                                <img src="{{ asset('public/assets/images/logo-light.png') }}" alt="" height="22">
                             @endif
-                            {{-- <img src="{{ asset('public/assets/images/logo-light.png') }}" alt="" height="22"> --}}
+                            <img src="{{ asset('public/assets/images/logo-light.png') }}" alt="" height="22">
                         </span>
                     </a>
                 </div>
